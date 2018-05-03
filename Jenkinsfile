@@ -1,7 +1,7 @@
 pipeline {
     agent none
     triggers {
-        eventTrigger simpleMatch('beeEvent')
+        eventTrigger simpleMatch('AndrewEvent')
     }
     stages {
         stage('Event Trigger') {
